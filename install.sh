@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 mv ~/.emacs ~/.emacs.old
 cp .emacs ~/.emacs
