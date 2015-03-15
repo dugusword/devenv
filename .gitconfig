@@ -1,0 +1,10 @@
+[user]
+	email = libiye@gmail.com
+	name = Biye Li
+[alias]
+	co = checkout
+	ci = commit
+    st = status
+    br = branch
+	stu = status
+    
