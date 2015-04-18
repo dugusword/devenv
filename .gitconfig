@@ -1,10 +1,14 @@
 [user]
-	email = libiye@gmail.com
-	name = Biye Li
+    email = libiye@gmail.com
+    name = Biye Li
 [alias]
-	co = checkout
-	ci = commit
+    co = checkout
+    ci = commit
     st = status
     br = branch
-	stu = status
+    stu = status -uno
     
+[push]
+    default = simple
+[credential]
+    helper = store
