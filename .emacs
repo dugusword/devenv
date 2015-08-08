@@ -10,9 +10,10 @@
 (package-initialize) ;; You might already have this line
 
 ;; auto-complete
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(ac-config-default)
+;;(require 'auto-complete-config)
+;;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+;;(ac-config-default)
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;;theme
 (load-theme 'monokai t)
