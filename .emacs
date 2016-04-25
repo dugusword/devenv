@@ -60,3 +60,4 @@
 (setq line-number-mode t)
 (setq column-number-mode t)
 (set-face-attribute 'default nil :height 100)
+'(company-global-modes '(not gud-mode))
