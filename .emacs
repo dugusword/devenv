@@ -55,6 +55,8 @@
 (setq indent-line-function 'insert-tab)
 (setq-default c-basic-offset 4)
 (c-set-offset 'substatement-open 0)
+(c-set-offset 'innamespace 0)
+(c-set-offset 'inextern-lang 0)
 
 ;; display line/column
 (setq line-number-mode t)
