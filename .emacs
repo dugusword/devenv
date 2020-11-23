@@ -44,6 +44,7 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(inhibit-startup-screen t)
+ '(package-selected-packages (quote (dockerfile-mode rust-mode company monokai-theme)))
  '(tool-bar-mode nil))
 
 ;; use c++ mode open header file
@@ -63,3 +64,11 @@
 (setq column-number-mode t)
 (set-face-attribute 'default nil :height 100)
 '(company-global-modes '(not gud-mode))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(when window-system (set-frame-size (selected-frame) 80 60))
