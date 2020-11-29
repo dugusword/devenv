@@ -10,7 +10,7 @@
 (package-initialize) ;; You might already have this line
 
 ; list the packages you want
-(setq package-list '(monokai-theme company rust-mode dockerfile-mode))
+(setq package-list '(monokai-theme company rust-mode dockerfile-mode markdown-mode))
 
 ; activate all the packages (in particular autoloads)
 (package-initialize)
@@ -44,7 +44,9 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(inhibit-startup-screen t)
- '(package-selected-packages (quote (dockerfile-mode rust-mode company monokai-theme)))
+ '(package-selected-packages
+   (quote
+    (markdown-mode dockerfile-mode rust-mode company monokai-theme)))
  '(tool-bar-mode nil))
 
 ;; use c++ mode open header file
